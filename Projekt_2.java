@@ -17,6 +17,8 @@ public class Projekt_2
                 int meny = Menu();
                 switch(meny)
                 {
+                    case -1:
+                        continue;
                     case 1:
                         Bokningsystem();
                         continue;
